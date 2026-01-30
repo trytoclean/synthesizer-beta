@@ -1,0 +1,9 @@
+build/
+.cache/
+temp/
+tmp/
+logs/
+private/
+
+.DS_Store
+

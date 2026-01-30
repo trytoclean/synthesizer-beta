@@ -1,0 +1,77 @@
+# 基于 Google 官方风格
+BasedOnStyle: Google
+
+# 缩进与空格
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+
+# 行宽（Google 官方是 80）
+ColumnLimit: 80
+
+# 大括号风格
+BreakBeforeBraces: Attach
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+
+# 指针和引用
+PointerAlignment: Left
+ReferenceAlignment: Pointer
+
+# 对齐
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+
+# 空行控制
+EmptyLineBeforeAccessModifier: LogicalBlock
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+
+# if / for / while
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+
+# 函数参数
+BinPackArguments: true
+BinPackParameters: true
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# 命名空间
+NamespaceIndentation: None
+FixNamespaceComments: true
+ShortNamespaceLines: 1
+
+# include 顺序
+SortIncludes: true
+IncludeBlocks: Regroup
+
+# 其他细节
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+SpaceAfterCStyleCast: true
+SpaceBeforeParens: ControlStatements
+SpacesInAngles: false
+SpacesInContainerLiterals: true
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# 注释
+ReflowComments: true
+CommentPragmas: '^ IWYU pragma:'
+
+# 访问修饰符
+AccessModifierOffset: -2
+
